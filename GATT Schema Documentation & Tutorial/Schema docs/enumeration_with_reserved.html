@@ -1,0 +1,179 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Docs for complexType enumeration_with_reserved in Schema Docs</title>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8"></meta>
+      <link rel="stylesheet" type="text/css" href="styles/site.css"></link><script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script><script type="text/javascript" src="scripts/highlight.pack.js"></script><script type="text/javascript" src="scripts/xmlstudio.js"></script><script type="text/javascript" src="scripts/jquery.cookie.js"></script></head>
+   <body style="margin:10px"><script type="text/javascript">
+                      EnsureInFrame('ComplexType', 'enumeration_with_reserved');
+                    </script><div class="pageheader">
+         Documentation for Schema Docs
+      </div>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label" width="120px;"><b>Definition Type:</b></td>
+               <td>ComplexType</td>
+            </tr>
+            <tr>
+               <td class="label" width="120px;"><b>Name:</b></td>
+               <td>enumeration_with_reserved</td>
+            </tr>
+            <tr>
+               <td class="label" width="120px;"><b>Containing Schema:</b></td>
+               <td><a href="enumeration_xsd.html">enumeration.xsd</a></td>
+            </tr>
+            <tr>
+               <td class="label" width="120px;"><b>Abstract</b></td>
+               <td>False</td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label"><img id="xsdDiagram" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>XSD Schema Diagram:</b> 
+               </td>
+            </tr>
+            <tr id="xsdDiagram_body_id">
+               <td><map name="DiagramMap" id="DiagramMap">
+                     <area shape="rect" coords="310,234,548,261" href="reserved2.html" alt="Drilldown into Reserved"></area>
+                     <area shape="rect" coords="310,201,668,228" href="definedbyservicespecification.html" alt="Drilldown into DefinedByServiceSpecification"></area>
+                     <area shape="rect" coords="310,168,580,195" href="vendorspecific2.html" alt="Drilldown into VendorSpecific"></area>
+                     <area shape="rect" coords="310,135,639,162" href="reservedforfutureuse11.html" alt="Drilldown into ReservedForFutureUse1"></area>
+                     <area shape="rect" coords="310,102,625,129" href="reservedforfutureuse2.html" alt="Drilldown into ReservedForFutureUse"></area>
+                     <area shape="rect" coords="310,69,612,96" href="enumeration_range2.html" alt="Drilldown into Enumeration_Range"></area>
+                     <area shape="rect" coords="310,36,528,63" href="enumeration.html" alt="Drilldown into Enumeration"></area>
+                     <area shape="rect" coords="310,3,523,30" href="informativetext2.html" alt="Drilldown into InformativeText"></area></map><img src="images/enumeration_with_reserved.png" border="0" alt="XSD Diagram of enumeration_with_reserved" usemap="#DiagramMap"></img></td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label"><img id="xsdCode" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>XSD Schema Code:</b> 
+               </td>
+            </tr>
+            <tr id="xsdCode_body_id">
+               <td><pre><code>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:complexType name="enumeration_with_reserved"&gt;
+    &lt;xs:sequence&gt;
+        &lt;xs:element name="InformativeText" type="description" minOccurs="0" /&gt;
+        &lt;xs:element name="Enumeration" type="enumeration" minOccurs="0" maxOccurs="unbounded" /&gt;
+        &lt;xs:element name="Enumeration_Range" type="enumeration_range" minOccurs="0" maxOccurs="unbounded" /&gt;
+        &lt;xs:element name="ReservedForFutureUse" type="enumeration_range" minOccurs="0" maxOccurs="unbounded" /&gt;
+        &lt;xs:element name="ReservedForFutureUse1" type="enumeration_range1" minOccurs="0" maxOccurs="unbounded" /&gt;
+        &lt;xs:element name="VendorSpecific" type="enumeration_range" minOccurs="0" maxOccurs="unbounded" /&gt;
+        &lt;xs:element name="DefinedByServiceSpecification" type="enumeration_range" minOccurs="0" maxOccurs="unbounded" /&gt;
+        &lt;xs:element name="Reserved" type="enumeration_range" minOccurs="0" maxOccurs="unbounded" /&gt;
+    &lt;/xs:sequence&gt;
+&lt;/xs:complexType&gt;</code></pre></td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label" colspan="2"><img id="childElements" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>Child Elements:</b></td>
+            </tr>
+            <tr id="childElements_body_id">
+               <td width="120px;"></td>
+               <td class="childTableHolder">
+                  <table class="childTable">
+                     <tr class="header">
+                        <td class="label first">Name</td>
+                        <td>Type</td>
+                        <td class="mid">Min Occurs</td>
+                        <td class="last">Max Occurs</td>
+                     </tr>
+                     <tr>
+                        <td class="first">InformativeText</td>
+                        <td><a href="informativetext2.html">InformativeText</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">(1)</td>
+                     </tr>
+                     <tr>
+                        <td class="first">Enumeration</td>
+                        <td><a href="enumeration.html">Enumeration</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">unbounded</td>
+                     </tr>
+                     <tr>
+                        <td class="first">Enumeration_Range</td>
+                        <td><a href="enumeration_range2.html">Enumeration_Range</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">unbounded</td>
+                     </tr>
+                     <tr>
+                        <td class="first">ReservedForFutureUse</td>
+                        <td><a href="reservedforfutureuse2.html">ReservedForFutureUse</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">unbounded</td>
+                     </tr>
+                     <tr>
+                        <td class="first">ReservedForFutureUse1</td>
+                        <td><a href="reservedforfutureuse11.html">ReservedForFutureUse1</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">unbounded</td>
+                     </tr>
+                     <tr>
+                        <td class="first">VendorSpecific</td>
+                        <td><a href="vendorspecific2.html">VendorSpecific</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">unbounded</td>
+                     </tr>
+                     <tr>
+                        <td class="first">DefinedByServiceSpecification</td>
+                        <td><a href="definedbyservicespecification.html">DefinedByServiceSpecification</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">unbounded</td>
+                     </tr>
+                     <tr>
+                        <td class="first">Reserved</td>
+                        <td><a href="reserved2.html">Reserved</a></td>
+                        <td class="mid">0</td>
+                        <td class="last">unbounded</td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label" colspan="2"><img id="derivationTree" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>Derivation Tree:</b></td>
+            </tr>
+            <tr id="derivationTree_body_id">
+               <td width="120px;"></td>
+               <td>
+                  <ul>
+                     <li><b><i>enumeration_with_reserved</i></b></li>
+                     <ul>
+                        <li><a href="enumerations.html">Enumerations</a></li>
+                     </ul>
+                     <ul>
+                        <li><a href="enumerations2.html">Enumerations</a></li>
+                     </ul>
+                  </ul>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="mainHelp2">
+         <tbody>
+            <tr>
+               <td class="label" colspan="2"><img id="references" class="expand" height="11" width="11" src="images/minus.gif" alt="Collapse"></img> <b>References:</b></td>
+            </tr>
+            <tr id="references_body_id">
+               <td width="120px;"></td>
+               <td><a href="enumerations.html">Enumerations</a>, <a href="enumerations2.html">Enumerations</a></td>
+            </tr>
+         </tbody>
+      </table>
+      <div class="pagefooter"> 
+         Generated using <a href="http://www.liquid-technologies.com/">Liquid XML Studio Designer Edition 9.1.10.3537</a><br></br>Featuring <a href="http://www.liquid-technologies.com/Xsd-To-Html.aspx">XML Schema to HTML</a>Doc Generation
+      </div>
+   </body>
+</html>
